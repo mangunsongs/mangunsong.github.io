@@ -1,0 +1,82 @@
+<div class="Hub">
+<div class="container3">
+    <h1>HUBUNGI KAMI</h1>
+    <div id="Hubungi Kami" class="btn-kontak">
+        <a href="#" class="btn maps">
+            <span class="fas fa-map-marked-alt">
+            </span>
+            Maps
+        </a>
+        <p>atau</p>
+        <a href="#" class="btn ig">
+            <span class="fab fa-instagram">
+            </span>
+            Instagram
+         </a>
+        <a href="#" class="btn fb">
+            <span class="fab fa-facebook-f">
+            </span>
+            Facebook
+        </a>
+        <a href="#" class="btn twitter">
+            <span class="fab fa-twitter">
+            </span>
+            Twitter
+        </a>
+    </div>
+</div>
+</div>
+
+.container3 {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.Hub {
+  padding: 20px;
+  background-size: cover;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.Hub h1 {
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.maps {
+  background-color: red;
+}
+.ig {
+  background-color: purple ;
+}
+.fb {
+  background-color :rgb(59, 89, 152);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.twitter {
+  background-color: #55acee;
+}
+.btn-kontak{
+  margin: 20px 0;
+}
+.btn-kontak p {
+  margin: 10px 0;
+}
+.btn:hover {
+  opacity: 1;
+}
+.fab {
+  margin-right: 5px;
+}
+.fas {
+  margin-right: 5px;
+}

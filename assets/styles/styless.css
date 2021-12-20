@@ -1,0 +1,50 @@
+<div class="Fas">
+<div class="container2">
+<div id="Fasilitas" class="contents">
+    <h2 class="section-title">Fasilitas</h2>
+    <div class="contents-item">
+        <img src="assets/images/Kama.jpeg">
+        <p>Kamar Tidur</p>
+    </div>
+    <div class="contents-item">
+        <img src="assets/images/vie.jpeg">
+        <p>Pemandangan</p>
+    </div>
+    <div class="contents-item">
+        <img src="assets/images/parki.jpeg">
+        <p>Lahan Parkir</p>
+    </div>
+    <div class="contents-item">
+        <img src="assets/images/tam.jpeg">
+        <p>Ruang Tamu</p>
+    </div>
+    <div class="contents-item">
+        <img src="assets/images/viewdepa.jpeg">
+        <p>Tampak Depan</p>
+    </div>
+</div>
+</div>
+</div>
+
+.container2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .Fas {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .contents-item {
+    float: left;
+    margin-right: 40px;
+    width: 20px
+    margin-left: 5px;
+  }
+  .contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+  }

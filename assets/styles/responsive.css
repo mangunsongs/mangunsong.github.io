@@ -1,0 +1,73 @@
+@media (max-width: 1000px) {
+    .lesson {
+        width: 50%;
+        margin-bottom: 50px; 
+    }
+}
+@media (max-width: 670px) {
+    .lesson {
+        width: 100%;
+    }
+    th, td{
+        font-size: 12px;
+          }
+    .btn {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .top-wrapper h1{
+        font-size: 32px;
+    }
+    .top-wrapper h2{
+        font-size: 20px;
+    }
+    .Ganjil h1{
+        font-size: 60px ;
+    }
+    .Ganjil p{
+        font-size: 30px;
+    }
+
+    .menu-toggle{
+        display: flex;
+    }
+    nav{
+        position: sticky;
+        top: 0;
+    }
+    nav ul{
+        position: absolute;
+        right: 0;
+        flex-direction: column;
+        top: 0;
+        height: 100vh;
+        background-color: rgb(180, 78, 232);
+        align-items: center;
+        justify-content: space-evenly;
+        z-index:-1;
+        width: 80%;
+        transform: translatex(100%);
+        transition: all 1s; 
+    }
+    nav ul.slide{
+        transform: translateX(0);
+    }
+    nav a:hover{
+        font-weight: bold;
+        color: #FFC807;
+      }
+      .Header-Logo{
+          font-size: 8.5px;
+      }
+      
+      .Header-Telepon{
+          font-size: 8px;
+      }
+      
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+ }
